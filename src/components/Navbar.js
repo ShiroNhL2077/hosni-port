@@ -1,6 +1,4 @@
-import '../App.css'
 import React from "react";
-import ReactDOM from "react-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll-v2";
 export default function Navbar() {
   return (

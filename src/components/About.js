@@ -1,62 +1,61 @@
-
 export default function About() {
   return (
     <section id="about" className="border-bottom my-5 pb-5">
       <h1 className="text-light text-center fw-bold display-2">About</h1>
-      <div className="d-flex flex-lg-row flex-column justify-content-lg-around">
+      <div className="d-flex flex-lg-row flex-column justify-content-lg-around align-items-center">
         <div className="d-flex flex-column align-items-center w-50">
           <span className="d-block display-3 text-light text-center fw-semibold my-5">
             Skills
           </span>
-          <div className="skill d-flex flex-row flex-wrap px-lg-5 align-items-center justify-content-between w-100">
+          <div className="bg-light rounded py-5 py-lg-0 d-flex flex-row flex-wrap px-lg-5 align-items-center justify-content-between w-100">
             <div className="d-flex justify-content-evenly mb-lg-3">
               <img
                 src="https://rapidapi.com/blog/wp-content/uploads/2018/06/logo-2582748_640.png"
-                className="w-25 h-25 rounded-circle mb-lg-0 mb-2"
+                className="w-25 h-25 rounded-circle border border-dark mb-lg-0 mb-2"
               ></img>
               <img
                 src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
-                className="w-25 h-25 rounded-circle mb-lg-0 mb-4"
+                className="w-25 h-25 rounded-circle border border-dark mb-lg-0 mb-4"
               ></img>
             </div>
             <div className="d-flex justify-content-evenly mb-lg-3">
               <img
                 src="https://avatars.githubusercontent.com/u/2918581?s=280&v=4"
-                className="w-25 h-25 rounded-circle mb-lg-0 mb-4"
+                className="w-25 h-25 rounded-circle border border-dark mb-lg-0 mb-4"
               ></img>
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
-                className="w-25 h-25 rounded-circle mb-lg-0 mb-4"
+                className="w-25 h-25 rounded-circle border border-dark mb-lg-0 mb-4"
               ></img>
             </div>
             <div className="d-flex justify-content-evenly mb-lg-3">
               <img
                 src="https://ionicframework.com/docs/icons/logo-react-icon.png"
-                className="w-25 h-25 rounded-circle mb-lg-0 mb-4"
+                className="w-25 h-25 rounded-circle border border-dark mb-lg-0 mb-4"
               ></img>
               <img
                 src="https://cdn-icons-png.flaticon.com/512/919/919825.png"
-                className="w-25 h-25 rounded-circle mb-lg-0 mb-4"
+                className="w-25 h-25 rounded-circle border border-dark mb-lg-0 mb-4"
               ></img>
             </div>
             <div className="d-flex justify-content-evenly ">
               <img
                 src="https://firebase.google.com/static/images/brand-guidelines/logo-vertical.png"
-                className="w-25 h-25 rounded-circle mb-lg-0 mb-4"
+                className="w-25 h-25 rounded-circle border border-dark mb-lg-0"
               ></img>
               <img
                 src="https://www.joykal.com/wp-content/uploads/2019/09/mongodb.jpg"
-                className="w-25 h-25 rounded-circle mb-lg-0 mb-4"
+                className="w-25 h-25 rounded-circle border border-dark mb-lg-0"
               ></img>
             </div>
           </div>
         </div>
-        <div className="w-50 px-2 d-flex flex-column align-items-center">
+        <div className="w-lg-50 w-100 px-2 d-flex p-lg-0 p-3 flex-column align-items-center">
           <span className="d-block display-3 text-light text-center fw-semibold my-5">
             Contacts
           </span>
-          <ul className="text-light h-75 d-flex flex-column justify-content-around">
-            <li className="display-5">
+          <ul className="text-dark p-5 w-75 bg-light rounded h-75 d-flex flex-column justify-content-around">
+            <li className="fs-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -69,7 +68,7 @@ export default function About() {
               </svg>{" "}
               Phone number : 56 402 972
             </li>
-            <li className="display-5">
+            <li className="fs-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -82,7 +81,7 @@ export default function About() {
               </svg>{" "}
               Whatsapp : +216 56 402 972
             </li>
-            <li className="display-5">
+            <li className="fs-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
@@ -101,7 +100,7 @@ export default function About() {
                 Hosni Trabelsi
               </a>
             </li>
-            <li className="display-5">
+            <li className="fs-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
